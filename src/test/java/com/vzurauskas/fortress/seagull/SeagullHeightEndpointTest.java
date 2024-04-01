@@ -1,4 +1,4 @@
-package com.vzurauskas.experiments.seagull;
+package com.vzurauskas.fortress.seagull;
 
 import com.vzurauskas.nereides.jackson.Json;
 import com.vzurauskas.nereides.jackson.SmartJson;

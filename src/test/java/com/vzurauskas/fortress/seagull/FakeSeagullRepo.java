@@ -1,4 +1,4 @@
-package com.vzurauskas.experiments.seagull;
+package com.vzurauskas.fortress.seagull;
 
 import java.util.*;
 

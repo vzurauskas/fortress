@@ -1,6 +1,6 @@
-package com.vzurauskas.experiments.seagull;
+package com.vzurauskas.fortress.seagull;
 
-import com.vzurauskas.experiments.Seagull;
+import com.vzurauskas.fortress.Seagull;
 
 import java.util.ArrayList;
 import java.util.Collection;

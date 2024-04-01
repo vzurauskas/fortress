@@ -1,4 +1,4 @@
-package com.vzurauskas.experiments;
+package com.vzurauskas.fortress;
 
 import com.vzurauskas.nereides.jackson.Json;
 

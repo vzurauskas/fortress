@@ -1,6 +1,6 @@
-package com.vzurauskas.experiments.seagull;
+package com.vzurauskas.fortress.seagull;
 
-import com.vzurauskas.experiments.Seagull;
+import com.vzurauskas.fortress.Seagull;
 import com.vzurauskas.nereides.jackson.Json;
 import com.vzurauskas.nereides.jackson.MutableJson;
 import org.springframework.http.HttpStatus;

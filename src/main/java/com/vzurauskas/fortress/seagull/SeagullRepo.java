@@ -1,4 +1,4 @@
-package com.vzurauskas.experiments.squirrel;
+package com.vzurauskas.fortress.seagull;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -10,21 +10,21 @@ import java.util.Objects;
 import java.util.UUID;
 
 @Repository
-public interface SquirrelRepo extends CrudRepository<SquirrelRepo.DbEntry, UUID> {
+public interface SeagullRepo extends CrudRepository<SeagullRepo.DbEntry, UUID> {
     @Entity
-    @Table(name = "squirrel")
+    @Table(name = "seagull")
     class DbEntry {
         @Id
         public UUID id;
         public String name;
-        public String nut;
+        public int height;
 
         public DbEntry() {}
 
-        public DbEntry(UUID id, String name, String nut) {
+        public DbEntry(UUID id, String name, int height) {
             this.id = id;
             this.name = name;
-            this.nut = nut;
+            this.height = height;
         }
 
         @Override
